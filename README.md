@@ -11,3 +11,4 @@ https://github.com/adafruit/Adafruit_CircuitPython_ESP32SPI/blob/master/examples
 
 Adafruit CircuitPython native (ESP32-S2) examples:
 https://github.com/adafruit/circuitpython/tree/main/tests/circuitpython-manual/socketpool/
+
