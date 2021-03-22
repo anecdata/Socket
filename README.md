@@ -1,5 +1,5 @@
 # Socket
-TCP and UDP socket examples and helpers for use with CircuitPython. Easy to modify: Add exception handling, context managers; make TCP examples re-use connections or make new connections.
+TCP and UDP socket examples and helpers for use with CircuitPython. Easy to modify: Add exception handling, context managers; make TCP examples re-use connections or make new connections. ESP32-S2 and CPython TCP examples based on https://github.com/adafruit/circuitpython/tree/main/tests/circuitpython-manual/socketpool/
 
 More examples:
 
