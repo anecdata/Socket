@@ -15,9 +15,10 @@ s.settimeout(TIMEOUT)
 
 s.bind((HOST, PORT))
 
+buf = bytearray(MAXBUF)
 while True:
-    buf, addr = s.recvfrom(MAXBUF)
-    print("Received", buf, "from", addr)
+    size, addr = s.recvfrom_into(buf)
+    print("Received", buf[:size], size, "bytes from", addr)
 
-    size = s.sendto(buf, addr)
-    print("Sent", buf, size, "bytes to", addr)
+    size = s.sendto(buf[:size], addr)
+    print("Sent", buf[:size], size, "bytes to", addr)
