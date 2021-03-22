@@ -36,7 +36,7 @@ while True:
     conn.settimeout(TIMEOUT)
     print("Accepted from", addr)
 
-    size = recv_into(buf, [MAXBUF])
+    size = conn.recv_into(buf, MAXBUF)
     print("Received", buf[:size], size)
 
     conn.send(buf[:size])
