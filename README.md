@@ -1,5 +1,5 @@
 # Socket
-TCP and UDP socket examples and helpers for use with CircuitPython.
+TCP and UDP socket examples and helpers for use with CircuitPython. Easy to modify: Add exception handling, context managers; make TCP examples re-use connections or make new connections.
 
 More examples:
 
