@@ -11,3 +11,54 @@ https://github.com/adafruit/Adafruit_CircuitPython_ESP32SPI/blob/master/examples
 
 Adafruit CircuitPython ESP32-S2 examples:  
 https://github.com/adafruit/circuitpython/tree/main/tests/circuitpython-manual/socketpool/
+
+## Compatibility
+```
+Socket Feature Availability
+
+                               CircuitPython  CircuitPython
+                CPython        ESP32SPI       ESP32-S2
+
+TCP Server      Yes            Not Impl.      Yes
+
+TCP Client      Yes            Yes            Yes
+
+UDP Server      Yes            Not Impl.      Yes
+
+UDP Client      Yes            Yes            Yes
+
+
+Compatibility (Verified)
+
+                                CircuitPython    CircuitPython
+                 CPython        ESP32SPI         ESP32-S2
+                 TCP Server     TCP Server       TCP Server
+
+CPython
+TCP Client       Yes            Not Impl.        Yes
+
+CircuitPython
+ESP32SPI
+TCP Client       Yes            Not Impl.        Yes
+
+CircuitPython
+ESP32-S2
+TCP Client       Yes            Not Impl.        Yes
+
+                                CircuitPython    CircuitPython
+                 CPython        ESP32SPI         ESP32-S2
+                 UDP Server     UDP Server       UDP Server
+
+CPython
+UDP Client       Yes*           Not Impl.        Yes*
+
+CircuitPython
+ESP32SPI
+UDP Client       Yes*           Not Impl.        Yes*
+
+CircuitPython
+ESP32-S2
+UDP Client       Yes*           Not Impl.        Yes*
+
+* pending circuitpython issues
+```
