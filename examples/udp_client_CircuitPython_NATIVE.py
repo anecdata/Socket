@@ -34,4 +34,6 @@ while True:
     size, addr = s.recvfrom_into(buf)
     print("Received", buf[:size], size, "bytes from", addr)
 
+    s.close()
+
     time.sleep(INTERVAL)
