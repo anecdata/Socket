@@ -50,15 +50,16 @@ TCP Client       Yes            Not Impl.        Yes
                  UDP Server     UDP Server       UDP Server
 
 CPython
-UDP Client       Yes*           Not Impl.        Yes*
+UDP Client       Yes            Not Impl.        Yes*
 
 CircuitPython
 ESP32SPI
-UDP Client       Yes*           Not Impl.        Yes*
+UDP Client       Yes†           Not Impl.        Yes*†
 
 CircuitPython
 ESP32-S2
-UDP Client       Yes*           Not Impl.        Yes*
+UDP Client       Yes            Not Impl.        Yes*
 
-* pending circuitpython issues
+* pending circuitpython issue
+† pending Adafruit_ESP32SPI issue
 ```
