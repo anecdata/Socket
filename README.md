@@ -60,6 +60,6 @@ CircuitPython
 ESP32-S2
 UDP Client       Yes            Not Impl.        Yes*
 
-* requires circuitpython PR#4465
+* requires circuitpython PR#4465 (merged but unreleased)
 † requires Adafruit_CircuitPython_ESP32SPI PR#127
 ```
