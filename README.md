@@ -32,7 +32,7 @@ UDP Server      Yes            Not Impl.      Yes
 UDP Client      Yes            Yes            Yes
 
 
-Compatibility (Verified with CircuitPython 6.2)
+Compatibility (verified with CircuitPython 6.2.0)
 
                                 CircuitPython    CircuitPython
                  CPython        ESP32SPI         ESP32-S2
