@@ -58,11 +58,9 @@ UDP Client       Yes            Not Impl.        Yes
 
 CircuitPython
 ESP32SPI
-UDP Client       Yes†           Not Impl.        Yes†
+UDP Client       Yes            Not Impl.        Yes
 
 CircuitPython
 ESP32-S2
 UDP Client       Yes            Not Impl.        Yes
-
-† requires Adafruit_CircuitPython_ESP32SPI PR#127
 ```
