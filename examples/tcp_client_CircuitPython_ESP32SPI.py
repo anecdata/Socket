@@ -19,6 +19,7 @@ INTERVAL = 5
 MAXBUF = 256
 
 
+# PyPortal or similar; edit pins as needed
 spi = board.SPI()
 esp32_cs = DigitalInOut(board.ESP_CS)
 esp32_ready = DigitalInOut(board.ESP_BUSY)
