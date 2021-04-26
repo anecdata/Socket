@@ -37,7 +37,7 @@ while True:
     print("Accepted from", addr)
 
     size = conn.recv_into(buf, MAXBUF)
-    print("Received", buf[:size], size)
+    print("Received", buf[:size], size, "bytes")
 
     conn.send(buf[:size])
     print("Sent", buf[:size], size, "bytes")
