@@ -5,6 +5,7 @@ import time
 from adafruit_wiznet5k.adafruit_wiznet5k import WIZNET5K
 import adafruit_wiznet5k.adafruit_wiznet5k_socket as socket
 
+# WIZnet W5100S-EVB-Pico for Raspberry Pi Pico RP2040
 SPI0_SCK = board.GP18
 SPI0_TX = board.GP19
 SPI0_RX = board.GP16
