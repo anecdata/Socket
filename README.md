@@ -20,16 +20,16 @@ However, it is implemented at the interface level (`esp`), not the socket level.
 ```
 Socket Feature Availability
 
-                               CircuitPython  CircuitPython
-                CPython        ESP32SPI       ESP32-S2
+                               CircuitPython  CircuitPython  CircuitPython
+                CPython        ESP32SPI       ESP32-S2       WIZnet5K
 
 TCP Server      Yes            Not Impl.      Yes
 
-TCP Client      Yes            Yes            Yes
+TCP Client      Yes            Yes            Yes            Yes
 
 UDP Server      Yes            Not Impl.      Yes
 
-UDP Client      Yes            Yes            Yes
+UDP Client      Yes            Yes            Yes            Yes
 
 
 Compatibility (verified with CircuitPython 6.2.0)
