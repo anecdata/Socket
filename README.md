@@ -14,7 +14,11 @@ https://github.com/adafruit/circuitpython/tree/main/tests/circuitpython-manual/s
 
 There is a class and example for an ESP32SPI TCP (HTTP) Server:  
 https://github.com/adafruit/Adafruit_CircuitPython_ESP32SPI/tree/master/examples/server  
-However, it is implemented at the interface level (`esp`), not the socket level. ESP32SPI is structured around the NINA firmware, which is structured around Arduino WiFi, which doesn't directly implement `bind`, `listen`, or `accept`.
+However, it is implemented at the interface level (`esp`), not the socket level. ESP32SPI is structured around the NINA firmware, which is structured around Arduino WiFi, which doesn't directly implement socket `bind`, `listen`, or `accept`.
+
+There is a rudimentary example for an ESP32SPI UDP Server:
+https://gist.github.com/anecdata/b3d43870942684570d90e3fc9833292b
+However, it is implemented at the interface level (`esp`), not the socket level. ESP32SPI is structured around the NINA firmware, which is structured around Arduino WiFi, which doesn't directly implement socket `bind`, `listen`, or `accept`.
 
 ## Compatibility
 ```
