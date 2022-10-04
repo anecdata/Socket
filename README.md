@@ -30,7 +30,8 @@ UDP Server      Yes            **             Yes            Yes
 
 UDP Client      Yes            Yes            Yes            Yes            Yes
 
-
+```
+```
 TCP Compatibility
 
                                 CircuitPython    CircuitPython    CircuitPython
@@ -51,7 +52,8 @@ TCP Client       6.2.0          *                6.2.0
 CircuitPython
 Pico W
 TCP Client                      *                                 8.0.0-beta.1
-
+```
+```
 UDP Compatibility
 
                                 CircuitPython    CircuitPython    CircuitPython
