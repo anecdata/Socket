@@ -38,38 +38,38 @@ CircuitPython Compatibility
                  TCP Server     TCP Server       TCP Server       TCP Server
 
 CPython
-TCP Client       6.2.0          Not Impl.        6.2.0            8.0.0-beta.1
+TCP Client       6.2.0          *                6.2.0            8.0.0-beta.1
 
 CircuitPython
 ESP32SPI
-TCP Client       6.2.0          Not Impl.        6.2.0            
+TCP Client       6.2.0          *                6.2.0            
 
 CircuitPython
 ESP32-S2
-TCP Client       6.2.0          Not Impl.        6.2.0            
+TCP Client       6.2.0          *                6.2.0            
 
 CircuitPython
 Pico W
-TCP Client                      Not Impl.                         
+TCP Client                      *                                 
 
                                 CircuitPython    CircuitPython    CircuitPython
                  CPython        ESP32SPI         ESP32-S2         Pico W
                  UDP Server     UDP Server       UDP Server       UDP Server
 
 CPython
-UDP Client       6.2.0          Not Impl.        6.2.0            
+UDP Client       6.2.0          **               6.2.0            
 
 CircuitPython
 ESP32SPI
-UDP Client       6.2.0          Not Impl.        6.2.0            
+UDP Client       6.2.0          **               6.2.0            
 
 CircuitPython
 ESP32-S2
-UDP Client       6.2.0          Not Impl.        6.2.0            
+UDP Client       6.2.0          **               6.2.0            
 
 CircuitPython
 Pico W
-UDP Client                      Not Impl.                         
+UDP Client                      **                                
 ```
 `*` There is a class and example for an ESP32SPI TCP (HTTP) Server:  
 https://github.com/adafruit/Adafruit_CircuitPython_ESP32SPI/tree/master/examples/server  
