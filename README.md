@@ -71,6 +71,7 @@ CircuitPython
 Pico W
 UDP Client                      Not Impl.                         
 ```
+
 * There is a class and example for an ESP32SPI TCP (HTTP) Server:  
 https://github.com/adafruit/Adafruit_CircuitPython_ESP32SPI/tree/master/examples/server  
 However, it is implemented at the interface level (`esp`), not the socket level. ESP32SPI is structured around the NINA firmware, which is structured around Arduino WiFi, which doesn't directly implement socket `bind`, `listen`, or `accept`.
