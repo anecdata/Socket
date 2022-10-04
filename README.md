@@ -50,7 +50,7 @@ TCP Client       6.2.0          *                6.2.0
 
 CircuitPython
 Pico W
-TCP Client                      *                                 
+TCP Client                      *                                 8.0.0-beta.1
 
                                 CircuitPython    CircuitPython    CircuitPython
                  CPython        ESP32SPI         ESP32-S2         Pico W
