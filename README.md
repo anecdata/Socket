@@ -13,8 +13,7 @@ Adafruit CircuitPython Native (`espressif` and `raspberrypi` ports) examples:
 https://github.com/adafruit/circuitpython/tree/main/tests/circuitpython-manual/socketpool/
 
 Adafruit CircuitPython Native (`espressif` and `raspberrypi` ports) HTTP Servers:
-https://github.com/adafruit/Adafruit_CircuitPython_HTTPServer
-https://github.com/deckerego/ampule
+https://github.com/adafruit/Adafruit_CircuitPython_HTTPServer & https://github.com/deckerego/ampule
 
 There is a class and example for a WIZnet5k TCP [HTTP / WSGI] Server:
 https://github.com/adafruit/Adafruit_CircuitPython_Wiznet5k/blob/main/examples/wiznet5k_wsgiserver_test.py
