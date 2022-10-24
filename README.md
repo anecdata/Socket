@@ -9,8 +9,12 @@ https://github.com/adafruit/Adafruit_CircuitPython_ESP32SPI/blob/master/examples
 Adafruit_CircuitPython_ESP32SPI UDP Client example: NTP  
 https://github.com/adafruit/Adafruit_CircuitPython_ESP32SPI/blob/master/examples/esp32spi_udp_client.py
 
-Adafruit CircuitPython ESP32-S2 examples:  
+Adafruit CircuitPython Native (`espressif` and `raspberrypi` ports) examples:  
 https://github.com/adafruit/circuitpython/tree/main/tests/circuitpython-manual/socketpool/
+
+Native (`espressif` and `raspberrypi` ports) HTTP Servers:
+https://github.com/adafruit/Adafruit_CircuitPython_HTTPServer
+https://github.com/deckerego/ampule
 
 There is a class and example for a WIZnet5k TCP [HTTP / WSGI] Server:
 https://github.com/adafruit/Adafruit_CircuitPython_Wiznet5k/blob/main/examples/wiznet5k_wsgiserver_test.py
