@@ -5,10 +5,18 @@ import time
 from adafruit_wiznet5k.adafruit_wiznet5k import WIZNET5K
 import adafruit_wiznet5k.adafruit_wiznet5k_socket as socket
 
-# WIZnet Ethernet Hat on Raspberry Pi Pico [W]
+W5x00_RSTn = board.GP15
+
+# WIZnet W5100S Ethernet Hat on Raspberry Pi Pico [W]
 cs = digitalio.DigitalInOut(board.GP17)
 spi = busio.SPI(board.GP18, MOSI=board.GP19, MISO=board.GP16)
 eth = WIZNET5K(spi, cs)
+
+ethernetRst = digitalio.DigitalInOut(W5x00_RSTn)
+ethernetRst.direction = digitalio.Direction.OUTPUT
+ethernetRst.value = False
+time.sleep(1)
+ethernetRst.value = True
 
 HOST = eth.pretty_ip(eth.ip_address)
 PORT = 5000
