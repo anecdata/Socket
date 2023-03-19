@@ -29,7 +29,6 @@ TIMEOUT = 5
 INTERVAL = 5
 MAXBUF = 256
 
-
 while True:
     print("Create TCP Client Socket")
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
