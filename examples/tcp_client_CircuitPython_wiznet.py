@@ -5,7 +5,7 @@ import time
 from adafruit_wiznet5k.adafruit_wiznet5k import WIZNET5K
 import adafruit_wiznet5k.adafruit_wiznet5k_socket as socket
 
-# WIZnet W5100S-EVB-Pico for Raspberry Pi Pico RP2040
+# WIZnet W5100S-EVB-Pico
 SPI0_SCK = board.GP18
 SPI0_TX = board.GP19
 SPI0_RX = board.GP16
@@ -13,8 +13,8 @@ SPI0_CSn = board.GP17
 W5x00_RSTn = board.GP15
 
 cs = digitalio.DigitalInOut(SPI0_CSn)
-spi_bus = busio.SPI(SPI0_SCK, MOSI=SPI0_TX, MISO=SPI0_RX)
-eth = WIZNET5K(spi_bus, cs, is_dhcp=True, debug=False)
+spi = busio.SPI(SPI0_SCK, MOSI=SPI0_TX, MISO=SPI0_RX)
+eth = WIZNET5K(spi, cs, is_dhcp=True, debug=False)
 
 ethernetRst = digitalio.DigitalInOut(W5x00_RSTn)
 ethernetRst.direction = digitalio.Direction.OUTPUT
