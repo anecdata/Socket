@@ -1,4 +1,5 @@
 # async TCP server, listening on three ports
+# Adafruit CircuitPython 8.2.4 on 2023-08-22; Adafruit QT Py ESP32-S3 no psram with ESP32S3
 
 import os
 import asyncio
@@ -47,6 +48,7 @@ asyncio.run(main())
 # CPython TCP client, connecting to three ports
 '''
 #!/usr/bin/env python3
+# Python 3.9.6
 import socket
 import time
 import random
