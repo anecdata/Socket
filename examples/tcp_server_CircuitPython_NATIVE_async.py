@@ -22,11 +22,10 @@ async def tcpserver(PORT):
     while True:
         try:
             conn, addr = s.accept()
-            conn.settimeout(CONN_TIMEOUT)
             print(f"Connection to {wifi.radio.ipv4_address}:{PORT} accepted from {addr[0]}:{addr[1]}")
+            conn.settimeout(CONN_TIMEOUT)
             size = conn.recv_into(buf, MAXBUF)
             print(f"Received {buf[:size]} {size} bytes")
-
             conn.close()
         except OSError as ex:  # EAGAIN
             pass
