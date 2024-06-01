@@ -85,3 +85,5 @@ However, it is implemented at the interface level (`esp`), not the socket level.
 `**` There is a rudimentary example for an ESP32SPI UDP Server:
 https://gist.github.com/anecdata/b3d43870942684570d90e3fc9833292b
 However, it is implemented at the interface level (`esp`), not the socket level. ESP32SPI is structured around the NINA firmware, which is structured around Arduino WiFi, which doesn't directly implement socket `bind`, `listen`, or `accept`.
+There is an updated ESP32SPI UDP Server:
+https://gist.github.com/anecdata/61dfb2e5f4649a1a42885f8e9314800a
