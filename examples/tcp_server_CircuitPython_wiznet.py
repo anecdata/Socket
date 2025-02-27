@@ -23,7 +23,7 @@ PORT = 5000
 TIMEOUT = None
 MAXBUF = 256
 
-print(f"WIZnet Client IP Address: {HOST}")
+print(f"WIZnet Server IP Address: {HOST}")
 
 print("Create TCP Server Socket")
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
